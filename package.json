@@ -1,0 +1,31 @@
+{
+  "name": "portal-manduvi-backend",
+  "version": "1.0.0",
+  "description": "Portal Manduvi Backend - Supabase + AI",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "verify-schema": "node verify_schema.mjs",
+    "verify-rls": "node verify_rls.mjs",
+    "verify-function": "node verify_function.mjs",
+    "test-verify": "node test_verify.mjs",
+    "setup-vault": "node setup_vault.mjs",
+    "test-trigger": "node test_trigger.mjs",
+    "test-clerk-webhook": "node test_clerk_webhook.mjs",
+    "demo": "node demo_scripts.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "supabase",
+    "ai",
+    "embeddings",
+    "portal",
+    "manduvi"
+  ],
+  "author": "Portal Manduvi Team",
+  "license": "MIT"
+}
